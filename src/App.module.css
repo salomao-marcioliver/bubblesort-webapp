@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #0F0622;
+}
+
+p {
+  color: #FFF;
+}
+
+.configButton{
+  width: auto;
+  color: #0F0622;
+  background-color: #FFF;
+  width: fit-content;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.configButton:hover{
+  background-color: rgb(224, 224, 224);
+}
+
+.configButton span {
+  cursor: pointer;
+}
+
+.teste {
+  background-color: #FFF;
+  
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+}
+
+.teste p {
+  color: #0F0622;
+}
