@@ -32,18 +32,18 @@ function App() {
         }
       }
     }
-
     setStepsSort(steps);
-
   }
 
   return (
     <div>
+      {/*
       <p>Tamanho do Vetor</p>
       <input type="number" onChange={e => setArraySize(parseInt(e.target.value))} />
       <p>{arraySize}</p>
+      */}
       <div className={styles.configButton}>
-        <span onClick={handleButtonConfig}>Configuração Extra</span>
+        <span onClick={handleButtonConfig}>Adicionar Elementos</span>
         {toShow &&
           <div className={styles.teste}>
             <p>Adicione os elementos (Separados por vírgula)</p>
@@ -51,6 +51,7 @@ function App() {
           </div>
         }
       </div>
+      {/*
       <div>
         <select id="">
           <option value="">Ordenado</option>
@@ -58,6 +59,7 @@ function App() {
           <option value="">Aleatório</option>
         </select>
       </div>
+      */}
 
       <button onClick={() => bubbleSort(document.getElementById('input-numbers').value.split(','))}>Gerar</button>
       <table className={styles.tableStepsSort}>

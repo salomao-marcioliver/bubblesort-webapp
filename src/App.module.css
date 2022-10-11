@@ -17,7 +17,7 @@ p {
   color: #0F0622;
   background-color: #FFF;
   width: fit-content;
-  margin: 10px auto 10px auto;
+  margin: 100px auto 10px auto;
   padding: 10px;
   border-radius: 20px;
 }
@@ -41,4 +41,9 @@ p {
 
 .teste p {
   color: #0F0622;
+}
+
+.tableStepsSort { 
+
+  margin: 15px auto 15px auto;
 }
